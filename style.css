@@ -1,0 +1,333 @@
+body {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.bottom-copy {
+    margin-bottom: 50px;
+    font-size: 1.72413793103vw;
+}
+  
+.bottom-heading {
+    font-size: 3vw;
+    margin-top: 167px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+.box-left {
+    flex: 1;
+    max-height: 406px;
+}
+
+.box-right {
+    flex: 1;
+    max-height: 406px;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 3vw;
+}
+
+.feature-copy {
+    font-size: 1.72413793103vw;
+    margin-bottom: 20px;
+}
+
+.feature-heading {
+    font-size: 3vw;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.feature-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    height: auto;
+    max-width: 100%;
+}
+
+#footer-button {
+    width: 378px;
+    height: 74px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    transition: 0.5s background-color ease;
+    font-family: "Libre Baskerville", serif;
+    font-size: 20px;
+    margin-bottom: 167px;
+}
+
+#footer-button:hover {
+    background-color: #2d64b3;
+}
+
+.heading-type {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#headline {
+    margin-bottom: 2.864590793vw !important;
+}
+
+#hero-button {
+    width: 15.067747572vw;
+    height: 4.239594373vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    transition: 0.5s background-color ease;
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.2vw;
+    margin-bottom: 9.567733249vw;
+}
+
+#hero-button:hover {
+    background-color: #2d64b3;
+}
+
+h1 {
+    font-size: 6.015640665vw;
+    line-height: 6.015640665vw;
+}
+
+.left-text {
+    padding-right: 1.14942528736vw;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo-div {
+    margin-top: 50px;
+}
+
+#margin {
+    margin-left: 23.333333333333%;
+    margin-right: 23.333333333333%;
+}
+
+#subheading {
+    font-size: 1.72413793103vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    margin-bottom: 2.864590793vw;
+}
+
+.subhead-type {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+@media (min-width: 621px) {
+
+    .feature-heading {
+        margin-left: 0px;
+    }
+
+    #switch-heading {
+        padding-left: 3vw;
+    }
+
+    #switch-copy {
+        padding-left: 3vw;
+    }
+}
+
+@media (min-width: 621px) and (max-width: 1024px ){
+
+    .bottom-copy {
+        margin-bottom: 50px;
+        font-size: 2.5vw;
+    }
+   
+    .bottom-heading {
+        font-size: 4vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8vw;
+    }
+
+    .feature-heading {
+        font-size: 4vw;
+    }
+
+    .feature-copy {
+        font-size: 2.5vw;
+    }
+
+    #hero-button {
+        width: 45vw;
+        height: 15vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+        border-radius: 25px;
+        color: white;
+        background-color: black;
+        transition: 0.5s background-color ease;
+        font-family: "Libre Baskerville", serif;
+        font-size: 3vw;
+        margin-bottom: 12vw;
+    }
+
+    h1 {
+        font-size: 12vw;
+        line-height: 12vw;
+    }
+
+    #margin {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    #subheading {
+        font-size: 5vw;
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+    }
+}
+
+
+@media (max-width: 620px) {
+
+    .bottom-copy {
+        margin-bottom: 50px;
+        font-size: 5vw;
+    }
+
+    .bottom-heading {
+        font-size: 10vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 12vw;
+    }
+
+    .container {
+        max-height: 1500px;
+        width: 70%;
+        flex-direction: column-reverse;
+        margin-bottom: 3vw;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+    }
+
+    .container:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .feature-heading {
+        font-size: 10vw;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .feature-copy {
+        font-size: 5vw;
+        margin-bottom: 10vw;
+        text-align: center;
+    }
+
+    .feature-image {
+        width: 100%;
+        margin-bottom: 4.39995600044vw;
+    }
+
+    #footer-button {
+        width: 100%;
+
+    }
+
+    #hero-button {
+        width: 45vw;
+        height: 15vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+        border-radius: 25px;
+        color: white;
+        background-color: black;
+        transition: 0.5s background-color ease;
+        font-family: "Libre Baskerville", serif;
+        font-size: 3vw;
+        margin-bottom: 12vw;
+    }
+
+    h1 {
+        font-size: 12vw;
+        line-height: 12vw;
+    }
+
+    #logo-div {
+        margin-bottom: 9.567733249vw;
+    }
+
+    #margin {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #subheading {
+        font-size: 5vw;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+    }
+
+    #switch-container > * {
+        transform: scaleY(-1);
+    }
+
+    #switch-container {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: flex-end;
+        transform: scaleY(-1);
+        margin-bottom: 3vw;
+        margin-top: 0px;
+    }
+
+}
+
